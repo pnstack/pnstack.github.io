@@ -26,6 +26,10 @@ jobs:
       - name: Build website
         run: yarn build
 
+      # Create CNAME in build folder
+      - name: Copy CNAME to build folder
+        run: cp CNAME ./build
+
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
