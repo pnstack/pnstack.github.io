@@ -67,6 +67,33 @@ const config = {
         },
       };
     },
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "templates",
+        path: "./templates",
+        routeBasePath: "/templates",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "libs",
+        path: "libs",
+        routeBasePath: "/libs",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "tools",
+        path: "tools",
+        routeBasePath: "/tools",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
   ],
 
   themeConfig:
@@ -88,7 +115,9 @@ const config = {
             label: "Docs",
           },
           { to: "/blog", label: "Blog", position: "left" },
-
+          { to: "/templates", label: "Templates", position: "left" },
+          { to: "/libs", label: "Libs", position: "left" },
+          { to: "/tools", label: "Tools", position: "left" },
           {
             href: "https://github.com/pnstack",
             label: "GitHub",

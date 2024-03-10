@@ -15,6 +15,14 @@ Bạn có thể tham khảo thêm tại [pnstack](https://pnstack.com) và [pnst
 - Blockchain: `ethereum`, `solana`, `substrate`,...
 - Các dự án mã nguồn mở khác..
 
+## Những thứ chúng tôi đang xây dựng
+
+- [templates](templates): Là nhưng template mà pnstack xây dựng giúp bắt đầu một project một cách dễ dàng nhất
+- [tools](tools): Là những công cụ mà pnstack xây dựng 
+- [libs](libs): Là những thư viện mà pnstack xây dựng
+
+
+
 ## Tham gia cùng chúng tôi
 
 Bạn có thể tham gia slack cùng chúng tôi tại [đây](https://join.slack.com/t/pnstack/shared_invite/zt-27lkxql52-jxNY5IiGITOVCZZ27hlAcg). Rất mong được gặp bạn!
