@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblogs=self.webpackChunkblogs||[]).push([[538],{7831:(s,e,l)=>{l.r(e),l.d(e,{default:()=>c});l(9474);var a=l(3274);const c=()=>(0,a.jsx)("div",{children:"AppPage"})}}]);
