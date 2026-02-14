@@ -54,7 +54,6 @@ Templates là nơi chúng mình xây dựng những template từ những công 
 ## AI & Machine Learning
 
 - **[template-pytorch-model](https://github.com/pnstack/template-pytorch-model)** - Template AI project với PyTorch
-- **[colab-starter](https://github.com/pnstack/colab-starter)** - Template Google Colab
 
 ## Blockchain
 
